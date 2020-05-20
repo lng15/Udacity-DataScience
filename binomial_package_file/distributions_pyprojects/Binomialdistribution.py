@@ -97,7 +97,7 @@ class Binomial(Distribution):
 
     def __add__(self, other):
         """
-        Function to add together two Binomial distributions with equal p
+        Function to add together two Binomial distributions_pyprojects with equal p
         Args:
             other (Binomial): Binomial instance
         Returns:

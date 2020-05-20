@@ -140,7 +140,7 @@ class Gaussian:
 
     def __add__(self, other):
 
-        """Magic method to add together two Gaussian distributions
+        """Magic method to add together two Gaussian distributions_pyprojects
 
         Args:
             other (Gaussian): Gaussian instance
@@ -150,11 +150,11 @@ class Gaussian:
 
         """
 
-        # TODO: Calculate the results of summing two Gaussian distributions
-        #   When summing two Gaussian distributions, the mean value is the sum
+        # TODO: Calculate the results of summing two Gaussian distributions_pyprojects
+        #   When summing two Gaussian distributions_pyprojects, the mean value is the sum
         #       of the means of each Gaussian.
         #
-        #   When summing two Gaussian distributions, the standard deviation is the
+        #   When summing two Gaussian distributions_pyprojects, the standard deviation is the
         #       square root of the sum of square ie sqrt(stdev_one ^ 2 + stdev_two ^ 2)
 
         # create a new Gaussian object
@@ -162,10 +162,10 @@ class Gaussian:
 
         # TODO: calculate the mean and standard deviation of the sum of two Gaussians
         result.mean = self.mean + other.mean  # change this line to calculate the mean of the sum of two Gaussian
-        # distributions
+        # distributions_pyprojects
         result.stdev = math.sqrt(
             self.stdev ** 2 + other.stdev ** 2)  # change this line to calculate the standard deviation of the sum of
-        # two Gaussian distributions
+        # two Gaussian distributions_pyprojects
 
         return result
 

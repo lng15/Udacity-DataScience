@@ -169,7 +169,7 @@ class Gaussian(Distribution):
 
     def __add__(self, other):
 
-        """Function to add together two Gaussian distributions
+        """Function to add together two Gaussian distributions_pyprojects
 
         Args:
             other (Gaussian): Gaussian instance
@@ -200,7 +200,7 @@ class Gaussian(Distribution):
         return "mean {}, standard deviation {}".format(self.mean, self.stdev)
 
 
-# initialize two gaussian distributions
+# initialize two gaussian distributions_pyprojects
 gaussian_one = Gaussian(25, 3)
 gaussian_two = Gaussian(30, 2)
 
